@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CalyxOS OTA updates</title>
+  <link rel="shortcut icon" type="image/png" href="/calyxos.org/assets/images/favicon.png">
+  
+  <meta name="description" content="CalyxOS OTA updates" />
+  <link rel="stylesheet" href="/calyxos.org/assets/css/main.css">
+  <link rel="alternate" type="application/rss+xml" title="CalyxOS" href="/calyxos.org/feed.xml">
+</head>
+
+  <body>
+    <header>
+  <div class="wrapper">
+    <div class="logoMark emptyLogo"></div>
+    <h1 class="logo"><a class="navbar-brand" href="/calyxos.org/">CalyxOS</a></h1>
+    <nav class="navbar navbar-expand-sm">
+      <input type="checkbox" class="toggle" id="navbar-visible"></input>
+      <ul class="navbar-nav">
+        <li class="nav-level-0 nav-item"><a class="nav-level-0 nav-link " href="/calyxos.org/features/">Features</a></li>
+<li class="nav-level-0 nav-item"><a class="nav-level-0 nav-link " href="/calyxos.org/community/">Community</a></li>
+<li class="nav-level-0 nav-item"><a class="nav-level-0 nav-link " href="/calyxos.org/docs/">Documentation</a></li>
+<li class="nav-level-0 nav-item"><a class="nav-level-0 nav-link " href="/calyxos.org/news/">News</a></li>
+        <li><a role="button" class="btn primaryBtn" href="/calyxos.org/get">Get CalyxOS</a></li>
+      </ul>
+      <label class="toggle navbar-toggle" for="navbar-visible"></label>
+    </nav>
+  </div>
+</header>
+
+    <main>
+      <section class="secondaryIntro">
+        <div class="wrapper">
+          <h1><span class="highlighter">CalyxOS OTA updates</span></h1>
+          
+        </div>
+      </section>
+      <section class="content primaryContent wrapper">
+        
+        <p>These are the OTA updates that are usually delivered directly to your device.</p>
+
+<div class="alert alert-info">
+Note: If you're installing CalyxOS for the first time, you should <a href="/calyxos.org/get/">get the factory image instead</a> and follow the factory image <a href="/calyxos.org/get/install/">installation instructions</a>.
+</div>
+
+<p>If you’re running the “Previous build” mentioned in the table below, you can choose the <a href="#incremental-ota-updates">incremental OTA</a>, it is a much smaller file containing only the difference between that previous build and the latest.</p>
+
+<p>Otherwise, you should choose the <a href="#full-ota-updates">full OTA update</a>, that can be used to update from any build.</p>
+
+<p>Next, see the <a href="/calyxos.org/get/ota/ota-install/">OTA installation instructions</a>.</p>
+
+<p>Optional: To verify the <em>SHA256</em> digest, run the command <code class="language-plaintext highlighter-rouge">sha256sum FILENAME_OF_DOWNLOAD</code> and compare the result with the value in the table below.</p>
+
+<h2 id="incremental-ota-updates">Incremental OTA updates</h2>
+
+<h3 class="mt-3">Stable</h3>
+<table class="table table-striped download">
+  <tr><th>Device</th><th>Previous build</th><th>Link</th><th>SHA256</th></tr>
+
+  <tr>
+    <td>Pixel 5a (barbet)</td>
+    <td>2.8.3</td>
+    <td><a href="https://release.calyxinstitute.org/barbet-incremental-2.8.3-202109290.zip">Download</a></td>
+    <td class="hash">0db410aae21f96d6af1a7e19bd51d7aa639a8ba89f938e2c8804e3a590950281</td>
+  </tr>
+
+  <tr>
+    <td>Pixel 4a (5G) (bramble)</td>
+    <td>2.8.2</td>
+    <td><a href="https://release.calyxinstitute.org/bramble-incremental-2.8.2-202109290.zip">Download</a></td>
+    <td class="hash">3652c6361a843fd54d7316ecf7b2fb0ccf81e8e74818571cd4a85b5edc7488cf</td>
+  </tr>
+
+  <tr>
+    <td>Pixel 5 (redfin)</td>
+    <td>2.8.2</td>
+    <td><a href="https://release.calyxinstitute.org/redfin-incremental-2.8.2-202109290.zip">Download</a></td>
+    <td class="hash">e0ab166e1917bd8b49e9c36f60f21f348a8310c717ffe3845ed77d2fc7fbcd25</td>
+  </tr>
+
+  <tr>
+    <td>Pixel 4a (sunfish)</td>
+    <td>2.8.2</td>
+    <td><a href="https://release.calyxinstitute.org/sunfish-incremental-2.8.2-202109290.zip">Download</a></td>
+    <td class="hash">bfd5e27632f89b3b5fc497907712844decc39ca39db00ebf9d576cf04f67d5b7</td>
+  </tr>
+
+  <tr>
+    <td>Pixel 4 XL (coral)</td>
+    <td>2.8.2</td>
+    <td><a href="https://release.calyxinstitute.org/coral-incremental-2.8.2-202109290.zip">Download</a></td>
+    <td class="hash">dd80971497704f8b99fe84559de5fe1d552b6fa4047a7d3f8b014e0f019ca7bd</td>
+  </tr>
+
+  <tr>
+    <td>Pixel 4 (flame)</td>
+    <td>2.8.2</td>
+    <td><a href="https://release.calyxinstitute.org/flame-incremental-2.8.2-202109290.zip">Download</a></td>
+    <td class="hash">e3e6fea9719e0137a214d7a788a840189a18de7adfe6d4d081ea5ee7fb54d85a</td>
+  </tr>
+
+  <tr>
+    <td>Pixel 3a XL (bonito)</td>
+    <td>2.8.2</td>
+    <td><a href="https://release.calyxinstitute.org/bonito-incremental-2.8.2-202109290.zip">Download</a></td>
+    <td class="hash">b1d1fa402992882a9c982468ffd41fd230b7a7f45a101b71dbe3a81dad3fcfa5</td>
+  </tr>
+
+  <tr>
+    <td>Pixel 3a (sargo)</td>
+    <td>2.8.2</td>
+    <td><a href="https://release.calyxinstitute.org/sargo-incremental-2.8.2-202109290.zip">Download</a></td>
+    <td class="hash">725abd009032d183332a6ff8bfb8f11890d53455f68601e7199f4f3949ec119f</td>
+  </tr>
+
+  <tr>
+    <td>Pixel 3 XL (crosshatch)</td>
+    <td>2.8.2</td>
+    <td><a href="https://release.calyxinstitute.org/crosshatch-incremental-2.8.2-202109290.zip">Download</a></td>
+    <td class="hash">4ca59c7da6dae63401b48e2897c30e2957903dda9f20d951dab0ee9121e5c8d5</td>
+  </tr>
+
+  <tr>
+    <td>Pixel 3 (blueline)</td>
+    <td>2.8.2</td>
+    <td><a href="https://release.calyxinstitute.org/blueline-incremental-2.8.2-202109290.zip">Download</a></td>
+    <td class="hash">ff1df56380dc456ba935c5a513957a59ba282df2ac259ef976d143e4ac1c8030</td>
+  </tr>
+
+  <tr>
+    <td>Pixel 2 XL (taimen)</td>
+    <td>2.8.2</td>
+    <td><a href="https://release.calyxinstitute.org/taimen-incremental-2.8.2-202109290.zip">Download</a></td>
+    <td class="hash">eb129e9b5847e82534d7884459a5e0c200dd221b6a353922b531c3d12c320daa</td>
+  </tr>
+
+  <tr>
+    <td>Pixel 2 (walleye)</td>
+    <td>2.8.2</td>
+    <td><a href="https://release.calyxinstitute.org/walleye-incremental-2.8.2-202109290.zip">Download</a></td>
+    <td class="hash">59afc1783e27f26bc880d752be4d20bba1e43dd9555c36a635ad14b91b6b892a</td>
+  </tr>
+
+  <tr>
+    <td>Xiaomi Mi A2 (jasmine_sprout)</td>
+    <td>2.8.2</td>
+    <td><a href="https://release.calyxinstitute.org/jasmine_sprout-incremental-2.8.2-202109290.zip">Download</a></td>
+    <td class="hash">445a7e0c32007b8c0bc8f023829b6071fccdf1efed108b166c688d888d7ca05a</td>
+  </tr>
+
+</table>
+
+<h2 id="full-ota-updates">Full OTA updates</h2>
+
+<h3 class="mt-3">Stable</h3>
+<table class="table table-striped download">
+  <tr><th>Device</th><th>Link</th><th>SHA256</th></tr>
+
+  <tr>
+    <td>Pixel 5a (barbet)</td>
+    <td><a href="https://release.calyxinstitute.org/barbet-ota_update-202109290.zip">Download</a></td>
+    <td class="hash">dedc558914f0361e973e5e4fff47bb4f9c9bb2b225570d5ca8215d2cdda77fb2</td>
+  </tr>
+
+  <tr>
+    <td>Pixel 4a (5G) (bramble)</td>
+    <td><a href="https://release.calyxinstitute.org/bramble-ota_update-202109290.zip">Download</a></td>
+    <td class="hash">2f592a7aa99188509a98180179f033d84767f94e3a775a46288be60c3b69bc0e</td>
+  </tr>
+
+  <tr>
+    <td>Pixel 5 (redfin)</td>
+    <td><a href="https://release.calyxinstitute.org/redfin-ota_update-202109290.zip">Download</a></td>
+    <td class="hash">a754937a7f5df4fe0e140ff40bf15179ee8ec12a98391db676b68a3bcf052dbd</td>
+  </tr>
+
+  <tr>
+    <td>Pixel 4a (sunfish)</td>
+    <td><a href="https://release.calyxinstitute.org/sunfish-ota_update-202109290.zip">Download</a></td>
+    <td class="hash">bfee7ccb8130c1d933ddd5182f97e67873ecdf0eb452fb8074745cc38bc1b3af</td>
+  </tr>
+
+  <tr>
+    <td>Pixel 4 XL (coral)</td>
+    <td><a href="https://release.calyxinstitute.org/coral-ota_update-202109290.zip">Download</a></td>
+    <td class="hash">b392c3350a7d0cb540dfda47a656d6ae1476de684c3be5955c81bfd98e213ff7</td>
+  </tr>
+
+  <tr>
+    <td>Pixel 4 (flame)</td>
+    <td><a href="https://release.calyxinstitute.org/flame-ota_update-202109290.zip">Download</a></td>
+    <td class="hash">f0e42c89d234846d2e7facf7b18998ecf83251cf9645e14e7ba7f7fb80496314</td>
+  </tr>
+
+  <tr>
+    <td>Pixel 3a XL (bonito)</td>
+    <td><a href="https://release.calyxinstitute.org/bonito-ota_update-202109290.zip">Download</a></td>
+    <td class="hash">a88878f188140f69e538985eb62737bd173f6fc967e6e7f8ced7086466dd6541</td>
+  </tr>
+
+  <tr>
+    <td>Pixel 3a (sargo)</td>
+    <td><a href="https://release.calyxinstitute.org/sargo-ota_update-202109290.zip">Download</a></td>
+    <td class="hash">27d3c992d038ff40d85464ecfd8cf1e563deb5b2766401aefb00dc9fa6242521</td>
+  </tr>
+
+  <tr>
+    <td>Pixel 3 XL (crosshatch)</td>
+    <td><a href="https://release.calyxinstitute.org/crosshatch-ota_update-202109290.zip">Download</a></td>
+    <td class="hash">999af47ef3b09f25f26b354157d9988545061ef6c8abf963506c10be530e8438</td>
+  </tr>
+
+  <tr>
+    <td>Pixel 3 (blueline)</td>
+    <td><a href="https://release.calyxinstitute.org/blueline-ota_update-202109290.zip">Download</a></td>
+    <td class="hash">ff98d47693f445dd5939763c4eff5386fabbc3d3e63eb922e0940f3654c32d5e</td>
+  </tr>
+
+  <tr>
+    <td>Pixel 2 XL (taimen)</td>
+    <td><a href="https://release.calyxinstitute.org/taimen-ota_update-202109290.zip">Download</a></td>
+    <td class="hash">140b188f383b3c8d7a3ba335b8ab4047e1415b5c0989d0598a0d45917be128f8</td>
+  </tr>
+
+  <tr>
+    <td>Pixel 2 (walleye)</td>
+    <td><a href="https://release.calyxinstitute.org/walleye-ota_update-202109290.zip">Download</a></td>
+    <td class="hash">1c2fb2c3e8d2110d9677c2a5e4b134dd22fff54c920d65b6de94f753bcdebdbf</td>
+  </tr>
+
+  <tr>
+    <td>Xiaomi Mi A2 (jasmine_sprout)</td>
+    <td><a href="https://release.calyxinstitute.org/jasmine_sprout-ota_update-202109290.zip">Download</a></td>
+    <td class="hash">8557fccc8b8c6a10a122b3ebcd81e77b2896d99f576ae0dff0a2f7cbb808a9f5</td>
+  </tr>
+
+</table>
+
+<p>Next, see the <a href="/calyxos.org/get/ota/ota-install/">OTA installation instructions</a>.</p>
+
+<div class="alert alert-info">
+<h4>Security update notes</h4>
+<ul>
+<li>The <b>Pixels 4a (5G), 5, 4a, 4 XL, 4, 3a XL, 3a, 3 XL, 3</b> contain the full security patch, as they are still being updated by Google.</li>
+<li>The <b>Pixels 2 and 2 XL</b> are not being updated by Google anymore, so they only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.</li>
+<li>The <b>Xiaomi Mi A2</b> is still getting security updates, but those are Android 10 and usually released towards the end of the month, whereas CalyxOS is Android 11 and releases the updates right as they're available. This means that the A2 lags behind slightly, by a month or two, in getting security updates for proprietary components.</li>
+</ul>
+</div>
+
+
+      </section>
+    </main>
+    <footer>
+      
+<div class="shade">
+  <div class="wrapper">
+    <div class="row">
+      <a href="https://calyxinstitute.org/about">About Calyx</a>
+      <span class="spacer" aria-hidden="true">&bull;</span>
+      <a href="https://members.calyxinstitute.org/enroll/membership/phone">Join Calyx</a>
+      <span class="spacer" aria-hidden="true">&bull;</span>
+      <a href="https://calyxinstitute.org/about/contact-us">Contact Us</a>
+      <span class="spacer" aria-hidden="true">&bull;</span>
+      <a href="https://calyxinstitute.org/legal/privacy-policy">Privacy Policy</a>
+      <span class="spacer" aria-hidden="true">&bull;</span>
+      <a href="https://calyxinstitute.org/legal/terms-of-service">Terms of Service</a>
+      <span class="spacer" aria-hidden="true">&bull;</span>
+      <a href="https://members.calyxinstitute.org/donate">Donate</a>
+    </div>
+    <div class="row footer-icons">
+      <a href="https://app.element.io/#/room/#calyxos:matrix.org" title="CalyxOS chat room">
+        <img class="filter-grey" src="/calyxos.org/assets/images/icons/matrix.svg" />
+      </a>
+      <a href="https://gitlab.com/CalyxOS" title="CalyxOS source code">
+        <img class="filter-grey" src="/calyxos.org/assets/images/icons/git.svg" />
+      </a>
+      <a href="https://twitter.com/CalyxOS" title="CalyxOS on Twitter">
+        <img class="filter-grey" src="/calyxos.org/assets/images/icons/twitter.svg" />
+      </a>
+      <a href="https://reddit.com/r/CalyxOS" title="CalyxOS on Reddit">
+        <img class="filter-grey" src="/calyxos.org/assets/images/icons/reddit.svg" />
+      </a>
+      <a href="https://facebook.com/calyxinstitute" title="Calyx Institute on Facebook">
+        <img class="filter-grey" src="/calyxos.org/assets/images/icons/facebook.svg" />
+      </a>
+      <a href="https://instagram.com/calyxinsta" title="Calyx Institute on Instagram">
+        <img class="filter-grey" src="/calyxos.org/assets/images/icons/instagram.svg" />
+      </a>
+    </div>
+    <div class="row">
+      <a href="https://calyxinstitute.org" target="_blank" rel="noreferrer nooopener">&copy; 2021 Calyx Institute</a>
+    </div>
+    <div class="row">
+      <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer nofollow" title="License: Attribution-ShareAlike 4.0 International"><img class="filter-grey" style="height: 24px" src="/calyxos.org/assets/images/icons/cc-by-sa.svg" /></a>
+    </div>
+  </div>
+</div>
+
+    </footer>
+  </body>
+</html>

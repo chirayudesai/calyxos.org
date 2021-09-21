@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/calyxos.org/feed.xml" rel="self" type="application/atom+xml" /><link href="/calyxos.org/de/" rel="alternate" type="text/html" /><updated>2021-09-21T19:59:06+00:00</updated><id>/calyxos.org/feed.xml</id><title type="html">CalyxOS</title><subtitle>CalyxOS</subtitle><entry><title type="html">September Security update</title><link href="/calyxos.org/de/news/2021/09/09/september-update/" rel="alternate" type="text/html" title="September Security update" /><published>2021-09-09T00:00:00+00:00</published><updated>2021-09-09T00:00:00+00:00</updated><id>/calyxos.org/news/2021/09/09/september-update</id><content type="html" xml:base="/calyxos.org/news/2021/09/09/september-update/">&lt;p&gt;The September Security update is here. It’s basically the last update (2.8.2/.3) with the September 2021 security patches applied on top.&lt;/p&gt;
+
+&lt;p&gt;Changelog:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;CalyxOS 2.9.0 - Android 11&lt;/li&gt;
+  &lt;li&gt;September Security update (2021-09-05)&lt;/li&gt;
+  &lt;li&gt;Change build number to 202109290 (2021 September, CalyxOS 2.9.0) to work around an issue where latest Google Camera would crash when trying to use Night Sight&lt;/li&gt;
+  &lt;li&gt;Updates for all included apps&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pixel 5a:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Fix fingerprint scanner / biometric usage in apps&lt;/li&gt;
+  &lt;li&gt;Add a file needed for Google Camera to work&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;alert alert-info&quot;&gt;
+&lt;h4&gt;Security update notes&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;The Pixels 3, 3 XL, 3a, 3a XL, 4, 4 XL, 4a, 5, 4a (5G), 5a contain the full security patch, as they are still being updated by Google.&lt;/li&gt;
+&lt;li&gt;The Pixels 2 and 2 XL are not being updated by Google anymore, so they only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.&lt;/li&gt;
+&lt;li&gt;The Xiaomi Mi A2 is still getting security updates, but those are Android 10 and usually released towards the end of the month, whereas CalyxOS is Android 11 and releases the updates right as they&apos;re available. This means that the A2 lags behind slightly, by a month or two, in getting security updates for proprietary components.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">The September Security update is here. It’s basically the last update (2.8.2/.3) with the September 2021 security patches applied on top.</summary></entry><entry><title type="html">Pixel 5a</title><link href="/calyxos.org/de/news/2021/09/08/pixel-5a/" rel="alternate" type="text/html" title="Pixel 5a" /><published>2021-09-08T00:00:00+00:00</published><updated>2021-09-08T00:00:00+00:00</updated><id>/calyxos.org/news/2021/09/08/pixel-5a</id><content type="html" xml:base="/calyxos.org/news/2021/09/08/pixel-5a/">&lt;p&gt;CalyxOS 2.8.3 is now available for the Pixel 5a - codename barbet.&lt;/p&gt;
+
+&lt;p&gt;You can download it from:&lt;/p&gt;
+
+&lt;table class=&quot;table table-striped download&quot;&gt;
+  &lt;tr&gt;&lt;th&gt;Device&lt;/th&gt;&lt;th&gt;Link&lt;/th&gt;&lt;th&gt;&lt;a href=&quot;/calyxos.org/get/verify&quot;&gt;Signature&lt;/a&gt;&lt;/th&gt;&lt;th&gt;SHA256&lt;/th&gt;&lt;/tr&gt;
+
+
+  &lt;tr&gt;
+    &lt;td&gt;Pixel 5a (barbet)&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;https://release.calyxinstitute.org/barbet-factory-202109290.zip&quot;&gt;Download&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href=&quot;https://release.calyxinstitute.org/barbet-factory-202109290.zip.minisig&quot;&gt;Signature&lt;/a&gt;&lt;/td&gt;
+    &lt;td class=&quot;hash&quot;&gt;dda5965b76cc68325e9f9c42d08f29cc976802a59ded06d9ee794d43bb57e7dc&lt;/td&gt;
+  &lt;/tr&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;/table&gt;
+
+&lt;p&gt;and install it using our “device-flasher”, for instructions see &lt;a href=&quot;/calyxos.org/get/install&quot;&gt;Install&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Changelog:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;CalyxOS 2.8.3 - Android 11&lt;/li&gt;
+  &lt;li&gt;August Security patch (2021-08-05)&lt;/li&gt;
+  &lt;li&gt;Vendor: June Security patch (2021-06-05)&lt;/li&gt;
+  &lt;li&gt;Initial build for Pixel 5a&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The September 2021 Security update will be available later this week for the Pixel 5a as well as all other devices&lt;/p&gt;</content><author><name></name></author><summary type="html">CalyxOS 2.8.3 is now available for the Pixel 5a - codename barbet.</summary></entry><entry><title type="html">Feature update</title><link href="/calyxos.org/de/news/2021/09/02/feature-update/" rel="alternate" type="text/html" title="Feature update" /><published>2021-09-02T00:00:00+00:00</published><updated>2021-09-02T00:00:00+00:00</updated><id>/calyxos.org/news/2021/09/02/feature-update</id><content type="html" xml:base="/calyxos.org/news/2021/09/02/feature-update/">&lt;p&gt;The promised feature update is here. It will be last big update for Android 11, we will not be developing any more features and instead focusing on making an Android 11 build available for the &lt;a href=&quot;https://twitter.com/CalyxOS/status/1433469816720044041&quot;&gt;Pixel 5a&lt;/a&gt;, and also preparing for Android 12.&lt;/p&gt;
+
+&lt;p&gt;Changelog:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;CalyxOS 2.8.2 - Android 11&lt;/li&gt;
+  &lt;li&gt;August Security patch (2021-08-05)&lt;/li&gt;
+  &lt;li&gt;Datura firewall: Network access toggle (the main toggle next to the app name) now prevents apps being able to bypass network isolation through DNS requests&lt;/li&gt;
+  &lt;li&gt;Global VPN feature: Ability to use one VPN device-wide - in the main user, work profile as well as other users&lt;/li&gt;
+  &lt;li&gt;To enable, go to Settings -&amp;gt; Network &amp;amp; internet -&amp;gt; VPN -&amp;gt; Your VPN app -&amp;gt; Global VPN; in the main user&lt;/li&gt;
+  &lt;li&gt;Auto reboot feature: Configurable time interval after which the device will get automatically rebooted. Returns phone to BFU state. Settings -&amp;gt; Security -&amp;gt; Auto reboot&lt;/li&gt;
+  &lt;li&gt;Pause apps feature: Long press an app in the Launcher and tap “Pause app” (the hourglass icon) to pause an app. A paused app will not be able to start, its notifications will be hidden.&lt;/li&gt;
+  &lt;li&gt;Navigation bar arrows feature: Enable from Settings -&amp;gt; System -&amp;gt; Languages &amp;amp; input -&amp;gt; Show arrow keys while typing; to show left and right cursor keys when typing&lt;/li&gt;
+  &lt;li&gt;Increase maximum password length from 16 to 64&lt;/li&gt;
+  &lt;li&gt;Developer option: Airplane mode radios - Configure which radio to toggle when toggling Airplane Mode: Settings -&amp;gt; System -&amp;gt; Developer options -&amp;gt; Airplane mode radios&lt;/li&gt;
+  &lt;li&gt;Dialer: Add an option to enable Do-not-disturb during calls&lt;/li&gt;
+  &lt;li&gt;Dialer: Add options for in-call vibration&lt;/li&gt;
+  &lt;li&gt;Dialer: Fix bug where the WhatsApp call option would be shown even when it wasn’t installed&lt;/li&gt;
+  &lt;li&gt;Messaging: Allow selecting text inside a message&lt;/li&gt;
+  &lt;li&gt;Messaging: Hide quick reply options in notifications&lt;/li&gt;
+  &lt;li&gt;Enable permission auto-revoke for work profile apps&lt;/li&gt;
+  &lt;li&gt;Enable Setup Wizard for newly created work profiles, allowing enabling / disabling of microG depending on user preference&lt;/li&gt;
+  &lt;li&gt;Fix network traffic monitor preference showing incorrect values&lt;/li&gt;
+  &lt;li&gt;Disable bluetooth by default on new installs&lt;/li&gt;
+  &lt;li&gt;microG: v0.2.22.212658&lt;/li&gt;
+  &lt;li&gt;Chromium: 92.0.4515.15&lt;/li&gt;
+  &lt;li&gt;F-Droid: 1.13.1&lt;/li&gt;
+  &lt;li&gt;Etar: Merge upstream code changes&lt;/li&gt;
+  &lt;li&gt;Recorder: Upstream improvements&lt;/li&gt;
+  &lt;li&gt;Updates for all other included apps&lt;/li&gt;
+  &lt;li&gt;Updated translations for all apps, and the OS&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Note:
+The Xiaomi Mi A2 proprietary firmware components are from September 2020, since trying to upgrade to anything newer ends up factory resetting the device.&lt;/p&gt;
+
+&lt;p&gt;Pixel 2:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Update Linux kernel to 4.4.278&lt;/li&gt;
+  &lt;li&gt;Merge security patches&lt;/li&gt;
+  &lt;li&gt;Note:
+Google has stopped updating this device. This means that
+they will not provide any more updates to the closed-source components,
+such as the bootloader, modem firmware, and other firmware.
+However, updates to the open source OS code and the Linux kernel
+can still be merged by us, and are included in this build.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;alert alert-info&quot;&gt;
+&lt;h4&gt;Security update notes&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;The Pixels 3, 3 XL, 3a, 3a XL, 4, 4 XL, 4a, 5, 4a (5G) contain the full security patch, as they are still being updated by Google.&lt;/li&gt;
+&lt;li&gt;The Pixels 2 and 2 XL are not being updated by Google anymore, so they only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.&lt;/li&gt;
+&lt;li&gt;The Xiaomi Mi A2 is still getting security updates, but those are Android 10 and usually released towards the end of the month, whereas CalyxOS is Android 11 and releases the updates right as they&apos;re available. This means that the A2 lags behind slightly, by a month or two, in getting security updates for proprietary components.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">The promised feature update is here. It will be last big update for Android 11, we will not be developing any more features and instead focusing on making an Android 11 build available for the Pixel 5a, and also preparing for Android 12.</summary></entry><entry><title type="html">August Security update</title><link href="/calyxos.org/de/news/2021/08/05/august-update/" rel="alternate" type="text/html" title="August Security update" /><published>2021-08-05T00:00:00+00:00</published><updated>2021-08-05T00:00:00+00:00</updated><id>/calyxos.org/news/2021/08/05/august-update</id><content type="html" xml:base="/calyxos.org/news/2021/08/05/august-update/">&lt;p&gt;The August update is here. It’s mostly identical to the Special Pixel 4a release (2.7.1), with the only addition being the security updates.&lt;/p&gt;
+
+&lt;p&gt;We’re working on some features and another update will be released later this month.&lt;/p&gt;
+
+&lt;p&gt;Changelog:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;CalyxOS 2.8.0 - Android 11&lt;/li&gt;
+  &lt;li&gt;August Security update (2021-08-05)&lt;/li&gt;
+  &lt;li&gt;Prevent hotspot devices from bypassing VPN when “Allow clients to use VPNs” is enabled&lt;/li&gt;
+  &lt;li&gt;Default to round icons, previous default was “Rounded Rectangle”&lt;/li&gt;
+  &lt;li&gt;Default to rounded corners&lt;/li&gt;
+  &lt;li&gt;Allow turning off microphone and camera status bar icons from Settings -&amp;gt; Status bar -&amp;gt; System icons&lt;/li&gt;
+  &lt;li&gt;Chromium: 91.0.4472.164&lt;/li&gt;
+  &lt;li&gt;Contacts: Don’t prompt to add Google Account when creating a contact for the first time&lt;/li&gt;
+  &lt;li&gt;microG: New icon for Settings -&amp;gt; System integration&lt;/li&gt;
+  &lt;li&gt;SeedVault: Restore: Always use F-Droid to install Nextcloud&lt;/li&gt;
+  &lt;li&gt;SetupWizard: Add button to setup eSIM on missing SIM page&lt;/li&gt;
+  &lt;li&gt;SetupWizard: Fix icons on app install page&lt;/li&gt;
+  &lt;li&gt;SetupWizard: Turn off OEM unlocking during initial setup if bootloader is locked&lt;/li&gt;
+  &lt;li&gt;Drop Conversations as a default included app.&lt;/li&gt;
+  &lt;li&gt;Updates for all other included apps.&lt;/li&gt;
+  &lt;li&gt;Updated translations for all apps, and the OS.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pixel 2:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Update Linux kernel to 4.4.276&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Note:
+The A2 proprietary firmware components are from September 2020 since trying to upgrade to anything newer ends up factory reseting the device.&lt;/p&gt;
+
+&lt;div class=&quot;alert alert-info&quot;&gt;
+&lt;h4&gt;Security update notes&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;The Pixels 3, 3 XL, 3a, 3a XL, 4, 4 XL, 4a, 5, 4a (5G) contain the full security patch, as they are still being updated by Google.&lt;/li&gt;
+&lt;li&gt;The Pixels 2 and 2 XL are not being updated by Google anymore, so they only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.&lt;/li&gt;
+&lt;li&gt;The Xiaomi Mi A2 is still getting security updates, but those are Android 10 and usually released towards the end of the month, whereas CalyxOS is Android 11 and releases the updates right as they&apos;re available. This means that the A2 lags behind slightly, by a month or two, in getting security updates for proprietary components.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">The August update is here. It’s mostly identical to the Special Pixel 4a release (2.7.1), with the only addition being the security updates.</summary></entry><entry><title type="html">Verifying CalyxOS builds</title><link href="/calyxos.org/de/news/2021/08/04/verifying-builds/" rel="alternate" type="text/html" title="Verifying CalyxOS builds" /><published>2021-08-04T00:00:00+00:00</published><updated>2021-08-04T00:00:00+00:00</updated><id>/calyxos.org/news/2021/08/04/verifying-builds</id><content type="html" xml:base="/calyxos.org/news/2021/08/04/verifying-builds/">&lt;p&gt;The official CalyxOS builds are signed with our private keys.
+Over-the-air (OTA) updates are also signed with the same keys, and once you install the OS, only updates signed with the same key can be installed.&lt;/p&gt;
+
+&lt;p&gt;The builds are made from signed git tags.&lt;/p&gt;
+
+&lt;p&gt;Starting July 2021, all CalyxOS factory images will be signed using &lt;a href=&quot;https://jedisct1.github.io/minisign/&quot;&gt;minisign&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Why minisign? It’s dead simple, easy to use, works well with large files, and can be easily integrated with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;device-flasher&lt;/code&gt; (which will be done in a future update)&lt;/p&gt;
+
+&lt;p&gt;Signatures:&lt;/p&gt;
+
+&lt;p&gt;You can now see a new Signature column next to the download link at [[get]]&lt;/p&gt;
+
+&lt;p&gt;You need to download both the factory zip, and the signature file (.minisig)
+You’ll also need the public key, &lt;a href=&quot;https://release.calyxinstitute.org/minisign.pub&quot;&gt;minisign.pub&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Then, the signature can be verified by running:&lt;/p&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;minisign &lt;span class=&quot;nt&quot;&gt;-Vm&lt;/span&gt; sunfish-factory-2.7.1.zip &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; minisign.pub
+&lt;span class=&quot;c&quot;&gt;# sunfish is Pixel 4a, replace with your device&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;It should output:&lt;/p&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Signature and comment signature verified
+Trusted comment: CalyxOS 2.7.1 - July 2021
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;For more detailed instructions, see [[verify]]&lt;/p&gt;</content><author><name></name></author><summary type="html">The official CalyxOS builds are signed with our private keys. Over-the-air (OTA) updates are also signed with the same keys, and once you install the OS, only updates signed with the same key can be installed.</summary></entry><entry><title type="html">Minor update for Pixel 4a</title><link href="/calyxos.org/de/news/2021/07/21/minor-update-sunfish/" rel="alternate" type="text/html" title="Minor update for Pixel 4a" /><published>2021-07-21T00:00:00+00:00</published><updated>2021-07-21T00:00:00+00:00</updated><id>/calyxos.org/news/2021/07/21/minor-update-sunfish</id><content type="html" xml:base="/calyxos.org/news/2021/07/21/minor-update-sunfish/">&lt;p&gt;A small update is now available for the Pixel 4a (sunfish).
+It mostly contains bugfixes.&lt;/p&gt;
+
+&lt;p&gt;A feature update with all of these changes and new features will be available for all supported devices at a later date.&lt;/p&gt;
+
+&lt;p&gt;Changelog:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;CalyxOS 2.7.1 - Android 11&lt;/li&gt;
+  &lt;li&gt;Prevent hotspot devices from bypassing VPN when “Allow clients to use VPNs” is enabled&lt;/li&gt;
+  &lt;li&gt;Default to round icons, previous default was “Rounded Rectangle”&lt;/li&gt;
+  &lt;li&gt;Default to rounded corners&lt;/li&gt;
+  &lt;li&gt;Allow turning off microphone and camera status bar icons from Settings -&amp;gt; Status bar -&amp;gt; System icons&lt;/li&gt;
+  &lt;li&gt;Chromium: 91.0.4472.164&lt;/li&gt;
+  &lt;li&gt;Contacts: Don’t prompt to add Google Account when creating a contact for the first time&lt;/li&gt;
+  &lt;li&gt;microG: New icon for Settings -&amp;gt; System integration&lt;/li&gt;
+  &lt;li&gt;SeedVault: Restore: Always use F-Droid to install Nextcloud&lt;/li&gt;
+  &lt;li&gt;SetupWizard: Add button to setup eSIM on missing SIM page&lt;/li&gt;
+  &lt;li&gt;SetupWizard: Fix icons on app install page&lt;/li&gt;
+  &lt;li&gt;SetupWizard: Turn off OEM unlocking during initial setup if bootloader is locked&lt;/li&gt;
+  &lt;li&gt;Drop Conversations as a default included app.&lt;/li&gt;
+  &lt;li&gt;Updates for all other included apps.&lt;/li&gt;
+  &lt;li&gt;Updated translations for all apps, and the OS.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">A small update is now available for the Pixel 4a (sunfish). It mostly contains bugfixes.</summary></entry><entry><title type="html">July Security update</title><link href="/calyxos.org/de/news/2021/07/09/july-update/" rel="alternate" type="text/html" title="July Security update" /><published>2021-07-09T00:00:00+00:00</published><updated>2021-07-09T00:00:00+00:00</updated><id>/calyxos.org/news/2021/07/09/july-update</id><content type="html" xml:base="/calyxos.org/news/2021/07/09/july-update/">&lt;p&gt;The July update is here, with some new features and bug fixes all around the place.&lt;/p&gt;
+
+&lt;p&gt;Changelog:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;CalyxOS 2.7.0 - Android 11&lt;/li&gt;
+  &lt;li&gt;July Security update (2021-07-05)&lt;/li&gt;
+  &lt;li&gt;Translation fixes: No more non-English text when your language is set to English!&lt;/li&gt;
+  &lt;li&gt;SeedVault: Experimental Storage backup feature - backup and restore all your photos, documents and files!&lt;/li&gt;
+  &lt;li&gt;Aurora Store 4.0.7: Fix app installation and updates&lt;/li&gt;
+  &lt;li&gt;microG: Fix Settings being reset&lt;/li&gt;
+  &lt;li&gt;microG: Include Cronet: Fixes apps such as Google Maps, and many more.&lt;/li&gt;
+  &lt;li&gt;microG: Update to v0.2.21.212158&lt;/li&gt;
+  &lt;li&gt;Work profile: Support setting a separate PIN/Password/Pattern&lt;/li&gt;
+  &lt;li&gt;Work profile: Fix support for biometrics in apps&lt;/li&gt;
+  &lt;li&gt;Datura Firewall: Fix toggles being reset, and other UI adjustments&lt;/li&gt;
+  &lt;li&gt;Datura Firewall: Store preferred sorting order&lt;/li&gt;
+  &lt;li&gt;Fix camera / microphone indicators&lt;/li&gt;
+  &lt;li&gt;Chromium: Update to 91.0.4472.134&lt;/li&gt;
+  &lt;li&gt;F-Droid: Update to 1.13&lt;/li&gt;
+  &lt;li&gt;SeedVault: Respect Settings theme, match colors&lt;/li&gt;
+  &lt;li&gt;Updates for all other included apps.&lt;/li&gt;
+  &lt;li&gt;Updated translations for all apps, and the OS.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Note:
+The A2 proprietary firmware components are from September 2020 since trying to upgrade to anything newer ends up factory reseting the device.&lt;/p&gt;
+
+&lt;div class=&quot;alert alert-info&quot;&gt;
+&lt;h4&gt;Security update notes&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;The Pixels 3, 3 XL, 3a, 3a XL, 4, 4 XL, 4a, 5, 4a (5G) contain the full security patch, as they are still being updated by Google.&lt;/li&gt;
+&lt;li&gt;The Pixels 2 and 2 XL are not being updated by Google anymore, so they only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.&lt;/li&gt;
+&lt;li&gt;The Xiaomi Mi A2 is still getting security updates, but those are Android 10 and usually released towards the end of the month, whereas CalyxOS is Android 11 and releases the updates right as they&apos;re available. This means that the A2 lags behind slightly, by a month or two, in getting security updates for proprietary components.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">The July update is here, with some new features and bug fixes all around the place.</summary></entry><entry><title type="html">June Security update and Feature drop</title><link href="/calyxos.org/de/news/2021/06/10/june-update/" rel="alternate" type="text/html" title="June Security update and Feature drop" /><published>2021-06-10T00:00:00+00:00</published><updated>2021-06-10T00:00:00+00:00</updated><id>/calyxos.org/news/2021/06/10/june-update</id><content type="html" xml:base="/calyxos.org/news/2021/06/10/june-update/">&lt;p&gt;The June update is here, with even more features and bug fixes.&lt;/p&gt;
+
+&lt;p&gt;Changelog:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;CalyxOS 2.6.1 - Android 11&lt;/li&gt;
+  &lt;li&gt;June Security update and Feature drop (2021-06-05)&lt;/li&gt;
+  &lt;li&gt;Work profile v2: Big improvements to work profile creation, resolving issues with certain essential system apps not being enabled in the profile, not being able to see work profile apps in the recent screen, and work needed to support future work profile features.&lt;/li&gt;
+  &lt;li&gt;For the best experience, we would recommend deleting any profiles you created in the May build and starting over with a fresh new profile.&lt;/li&gt;
+  &lt;li&gt;Enable SeedVault backups for work profile, from Settings (in the main user) -&amp;gt; System -&amp;gt; Backup -&amp;gt; Work. Do note that USB is not available in work profiles due as Android does not support that.&lt;/li&gt;
+  &lt;li&gt;Handle microG better in work profile, enabling / disabling all of it’s companion apps as needed.&lt;/li&gt;
+  &lt;li&gt;Firewall (Datura): Support work profile apps, improve icon and fix sorting of apps.&lt;/li&gt;
+  &lt;li&gt;AMOLED dark mode, aka pure black background for dark theme. Enable at Settings -&amp;gt; Display -&amp;gt; Dark theme -&amp;gt; Pure black&lt;/li&gt;
+  &lt;li&gt;Network traffic monitor feature, which shows network traffic indication in the status bar. Enable from Settings -&amp;gt; System -&amp;gt; Status bar -&amp;gt; Network traffic monitor&lt;/li&gt;
+  &lt;li&gt;Status bar icon configuration, allowing you to choose what to show. Configure in Settings -&amp;gt; System -&amp;gt; Status bar -&amp;gt; System icons&lt;/li&gt;
+  &lt;li&gt;Use rounded corners in the system where appropriate.&lt;/li&gt;
+  &lt;li&gt;Include a Maps app in the OS, Organic Maps. You can install it from F-Droid&lt;/li&gt;
+  &lt;li&gt;Bring in the Recorder app from LineageOS, allowing you to create sound recordings.&lt;/li&gt;
+  &lt;li&gt;F-Droid: Handle Trichrome updates better, fixing an issue with Trichrome Library updates where they would always show up as an update even after updating.&lt;/li&gt;
+  &lt;li&gt;Dialer: Use a restrictive WebView for Menu -&amp;gt; Helplines links, which clears it’s history when you’re done to avoid leaving any traces. Also add additional categories for the helplines.&lt;/li&gt;
+  &lt;li&gt;Panic trigger (Ripple): This will no longer show up as an update in Aurora Store&lt;/li&gt;
+  &lt;li&gt;Music (Eleven): Bug fixes and performance improvements&lt;/li&gt;
+  &lt;li&gt;You can also create screen recordings using the built-in recorder from the quick settings (what you see down the status bar)&lt;/li&gt;
+  &lt;li&gt;microG: Implement Font provider to support more applications, such as Google Fi&lt;/li&gt;
+  &lt;li&gt;microG: Update to v0.2.19.211515&lt;/li&gt;
+  &lt;li&gt;Chromium: Switch to 64-bit builds on all devices.&lt;/li&gt;
+  &lt;li&gt;Chromium: Update 91.0.4472.88&lt;/li&gt;
+  &lt;li&gt;Updates for all other included apps.&lt;/li&gt;
+  &lt;li&gt;Updated translations for all apps, and the OS.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Note:
+A2 Firmware is from September 2020 since upgrading to versions after that
+requires a factory reset.&lt;/p&gt;
+
+&lt;div class=&quot;alert alert-info&quot;&gt;
+&lt;h4&gt;Security update notes&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;The Pixels 3, 3 XL, 3a, 3a XL, 4, 4 XL, 4a, 5, 4a (5G) contain the full security patch, as they are still being updated by Google.&lt;/li&gt;
+&lt;li&gt;The Pixels 2 and 2 XL are not being updated by Google anymore, so they only contain the fixes to the open source components, such as the OS code and the Linux kernel. Proprietary components such as the bootloader, modem firmware, and other firmware no longer get updates.&lt;/li&gt;
+&lt;li&gt;The Xiaomi Mi A2 is still getting security updates, but those are Android 10 and usually released towards the end of the month, whereas CalyxOS is Android 11 and releases the updates right as they&apos;re available. This means that the A2 lags behind slightly, by a month or two, in getting security updates for proprietary components.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">The June update is here, with even more features and bug fixes.</summary></entry><entry><title type="html">Community update</title><link href="/calyxos.org/de/news/2021/05/27/community-update/" rel="alternate" type="text/html" title="Community update" /><published>2021-05-27T00:00:00+00:00</published><updated>2021-05-27T00:00:00+00:00</updated><id>/calyxos.org/news/2021/05/27/community-update</id><content type="html" xml:base="/calyxos.org/news/2021/05/27/community-update/">&lt;p&gt;We have changed how the setup of the various [[communication channels =&amp;gt; community]] over the last week.&lt;/p&gt;
+
+&lt;p&gt;Matrix will be the primary medium of communication going forward.&lt;/p&gt;
+
+&lt;p&gt;There are now Telegram groups for all 5 Matrix channels, bridged using &lt;a href=&quot;https://t2bot.io/telegram/&quot;&gt;t2bot.io&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;On Matrix, Telegram messages will appear just like any other message.&lt;/li&gt;
+  &lt;li&gt;On Telegram, Matrix messages will appear to be sent by “Matrix Telegram Bridge” -&amp;gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@matrix_t2bot&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Additionally, the Matrix channels are also bridged to IRC on &lt;a href=&quot;https://libera.chat&quot;&gt;Libera.chat&lt;/a&gt; using &lt;a href=&quot;https://github.com/42wim/matterbridge&quot;&gt;Matterbridge&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;On Matrix, IRC messages will appear to be sent by “SepalBot” -&amp;gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@sepalbot:matrix.org&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;On IRC, Matrix messages will appear to be sent by “SepalBot”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;all-channels-public-and-unencrypted&quot;&gt;All channels, public and unencrypted&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;calyxos:&lt;/strong&gt; The main channel
+    &lt;ul&gt;
+      &lt;li&gt;Matrix: &lt;a href=&quot;https://app.element.io/#/room/#CalyxOS:matrix.org&quot;&gt;#CalyxOS:matrix.org&lt;/a&gt;, OR&lt;/li&gt;
+      &lt;li&gt;Telegram: &lt;a href=&quot;https://t.me/CalyxOSpublic&quot;&gt;CalyxOSpublic&lt;/a&gt;, OR&lt;/li&gt;
+      &lt;li&gt;IRC: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#calyxos&lt;/code&gt; on &lt;a href=&quot;https://libera.chat&quot;&gt;Libera.chat&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;calyxos-offtopic:&lt;/strong&gt; For all off-topic conversations
+    &lt;ul&gt;
+      &lt;li&gt;Matrix: &lt;a href=&quot;https://app.element.io/#/room/#calyxos-offtopic:matrix.org&quot;&gt;#calyxos-offtopic:matrix.org&lt;/a&gt;, OR&lt;/li&gt;
+      &lt;li&gt;Telegram: &lt;a href=&quot;https://t.me/CalyxOSOffTopic&quot;&gt;CalyxOSOfftopic&lt;/a&gt;, OR&lt;/li&gt;
+      &lt;li&gt;IRC: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#calyxos-offtopic&lt;/code&gt; on &lt;a href=&quot;https://libera.chat&quot;&gt;Libera.chat&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;calyxos-feeds:&lt;/strong&gt; Live feed of code commits / gitlab activity / reddit posts
+    &lt;ul&gt;
+      &lt;li&gt;Matrix: &lt;a href=&quot;https://app.element.io/#/room/#calyxos-feeds:matrix.org&quot;&gt;#calyxos-feeds:matrix.org&lt;/a&gt;, OR&lt;/li&gt;
+      &lt;li&gt;Telegram: &lt;a href=&quot;https://t.me/CalyxOSFeeds&quot;&gt;CalyxOSFeeds&lt;/a&gt;, OR&lt;/li&gt;
+      &lt;li&gt;IRC: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#calyxos-feeds&lt;/code&gt; on &lt;a href=&quot;https://libera.chat&quot;&gt;Libera.chat&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;calyxos-dev:&lt;/strong&gt; For development related discussion
+    &lt;ul&gt;
+      &lt;li&gt;Matrix: &lt;a href=&quot;https://app.element.io/#/room/#calyxos-dev:matrix.org&quot;&gt;#calyxos-dev:matrix.org&lt;/a&gt;, OR&lt;/li&gt;
+      &lt;li&gt;Telegram: &lt;a href=&quot;https://t.me/CalyxOSDev&quot;&gt;CalyxOSDev&lt;/a&gt;, OR&lt;/li&gt;
+      &lt;li&gt;IRC: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#calyxos-dev&lt;/code&gt; on &lt;a href=&quot;https://libera.chat&quot;&gt;Libera.chat&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;calyxos-infra:&lt;/strong&gt; For infrastructure related discussion
+    &lt;ul&gt;
+      &lt;li&gt;Matrix: &lt;a href=&quot;https://app.element.io/#/room/#calyxos-infra:matrix.org&quot;&gt;#calyxos-infra:matrix.org&lt;/a&gt;, OR&lt;/li&gt;
+      &lt;li&gt;Telegram: &lt;a href=&quot;https://t.me/CalyxOSInfra&quot;&gt;CalyxOSInfra&lt;/a&gt;, OR&lt;/li&gt;
+      &lt;li&gt;IRC: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#calyxos-infra&lt;/code&gt; on &lt;a href=&quot;https://libera.chat&quot;&gt;Libera.chat&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;matrix-space&quot;&gt;Matrix Space&lt;/h3&gt;
+
+&lt;p&gt;Matrix has a new &lt;a href=&quot;https://element.io/blog/spaces-the-next-frontier/&quot;&gt;spaces features&lt;/a&gt;, which lets you view all these rooms together.&lt;/p&gt;
+
+&lt;p&gt;We’ve created a &lt;a href=&quot;https://app.element.io/#/room/!LuDyVhhVhiOBRTnSbL:matrix.org&quot;&gt;CalyxOS space&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">We have changed how the setup of the various [[communication channels =&amp;gt; community]] over the last week.</summary></entry><entry><title type="html">CalyxOS Emulator Images</title><link href="/calyxos.org/de/news/2021/05/27/emulator-images/" rel="alternate" type="text/html" title="CalyxOS Emulator Images" /><published>2021-05-27T00:00:00+00:00</published><updated>2021-05-27T00:00:00+00:00</updated><id>/calyxos.org/news/2021/05/27/emulator-images</id><content type="html" xml:base="/calyxos.org/news/2021/05/27/emulator-images/">&lt;p&gt;CalyxOS Emulator images are now available, which can be used with the Emulator present in Android Studio.&lt;/p&gt;
+
+&lt;p&gt;They’re mostly meant for testing apps (especially system included apps such as Datura and Seedvault). They’re &lt;em&gt;not&lt;/em&gt; meant for general usage.&lt;/p&gt;
+
+&lt;p&gt;URL: &lt;a href=&quot;https://release.calyxinstitute.org/sys-img.xml&quot;&gt;https://release.calyxinstitute.org/sys-img.xml&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;These images are &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;userdebug&lt;/code&gt; which means you can use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;adb root&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Additionally, these aren’t separately signed, which means all the apps are signed using publicly available AOSP “test-keys”, meaning that you can easily test code changes to system apps.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x86&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;x86_64&lt;/code&gt; images are available currently. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;arm64&lt;/code&gt; images appear to be currently broken in AOSP, however we’re trying to see if we can fix them. Those will be made available when ready.&lt;/p&gt;
+
+&lt;h3 id=&quot;steps&quot;&gt;Steps&lt;/h3&gt;
+
+&lt;p&gt;This emulator image is meant for use with &lt;a href=&quot;https://developer.android.com/studio&quot;&gt;Android Studio&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Launch Android Studio, and open Tools -&amp;gt; SDK Manager&lt;/li&gt;
+  &lt;li&gt;Click on “SDK Update Sites”, and then tap the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;+&lt;/code&gt; plus icon on the left.&lt;/li&gt;
+  &lt;li&gt;Type in the above url, i.e. &lt;a href=&quot;https://release.calyxinstitute.org/sys-img.xml&quot;&gt;https://release.calyxinstitute.org/sys-img.xml&lt;/a&gt; and under name enter “CalyxOS”&lt;/li&gt;
+  &lt;li&gt;Make sure the checkbox to the left of “CalyxOS” is checked, and then hit Apply or OK.&lt;/li&gt;
+  &lt;li&gt;You can now create an AVD with the CalyxOS image.&lt;/li&gt;
+  &lt;li&gt;Open “Tools -&amp;gt; AVD Manager”&lt;/li&gt;
+  &lt;li&gt;Click “Create Virtual Device” at the bottom, then select hardware.&lt;/li&gt;
+  &lt;li&gt;Next, on the “System Image” selection page, click on “x86 Images”.&lt;/li&gt;
+  &lt;li&gt;You should see the CalyxOS Images, they will show up as Target: Android 11 (CalyxOS Android System Image).&lt;/li&gt;
+  &lt;li&gt;Click “Download” to download the system image, and then hit next.&lt;/li&gt;
+  &lt;li&gt;You can now launch the AVD to run CalyxOS.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;These images will get updated every month as we tag and release new builds.&lt;/p&gt;
+
+&lt;h3 id=&quot;sdkmanager-installation&quot;&gt;sdkmanager installation&lt;/h3&gt;
+
+&lt;p&gt;If you want to install these images using sdkmanager, the strings are:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;system-images;android-30;calyx;x86&quot;&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;system-images;android-30;calyx;x86_64&quot;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;docker-images&quot;&gt;Docker images&lt;/h3&gt;
+
+&lt;p&gt;F-Droid has CI images which have the Android SDK pre-configured with our repos.
+They’re included in the docker image: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;registry.gitlab.com/fdroid/ci-images-client&lt;/code&gt;
+This means that this can be used to directly install the CalyxOS images and use it for testing / CI.&lt;/p&gt;
+
+&lt;p&gt;For more details see: &lt;a href=&quot;https://gitlab.com/fdroid/ci-images-client&quot;&gt;https://gitlab.com/fdroid/ci-images-client&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;References:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;https://review.calyxos.org/q/topic:emulator&lt;/li&gt;
+  &lt;li&gt;https://source.android.com/setup/create/avd#sharing_avd_system_images_for_others_to_use_with_android_studio&lt;/li&gt;
+  &lt;li&gt;https://developer.android.com/studio/intro/update#adding-sites&lt;/li&gt;
+  &lt;li&gt;https://developer.android.com/studio/run/managing-avds#createavd&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">CalyxOS Emulator images are now available, which can be used with the Emulator present in Android Studio.</summary></entry></feed>
